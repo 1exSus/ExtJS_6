@@ -4,7 +4,7 @@ Ext.define('App.view.login.LoginWindow', {
 
   title: 'Вход в систему',
   width: 350,
-  height: 200,
+  height: CSSMathMax,
   closable: false,
   resizable: false,
   modal: true,
