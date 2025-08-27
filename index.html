@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Товары - Панель управления</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/extjs/6.0.0/classic/theme-triton/resources/theme-triton-all.css" />
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/extjs/6.0.0/ext-all.js"></script>
+
+    <!-- Загрузка модулей -->
+    <script type="text/javascript" src="app/model/Product.js"></script>
+    <script type="text/javascript" src="app/store/Products.js"></script>
+    <script type="text/javascript" src="app/controller/AuthController.js"></script>
+    <script type="text/javascript" src="app/view/login/LoginWindow.js"></script>
+    <script type="text/javascript" src="app/view/main/MainPanel.js"></script>
+    <script type="text/javascript" src="app/view/products/ProductsGrid.js"></script>
+    <script type="text/javascript" src="app/view/products/ProductCardWindow.js"></script>
+    <script type="text/javascript" src="app/Application.js"></script>
+  </head>
+  <body>
+    <script type="text/javascript">
+      Ext.onReady(function () {
+        Ext.create('App.Application').launch();
+      });
+    </script>
+  </body>
+</html>
